@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(image/술자리.jfif) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container{
+    text-align: center;
+    border: 5px solid white;
+    background-color: rgba(247, 243, 242, 0.7);
+    border-radius: 20px;
+    padding: 4vw;    
+}
+
+.title-fir{
+    font-size: 6vw;
+    font-weight: bold;
+}
+
+.title-sec{
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+.button-style {
+    height: 80px;
+    width: 100px;
+    margin-top: 5px;
+    border-radius: 50px;
+    font-size: 30pt;
+    font-weight: bold;
+}
+
+.button-reset {
+    font-size: 5vw;
+    width: 80px;
+    height: 60px;
+}
+
+.form-control {
+    height: 80px;
+    font-size: 3vw;
+    margin-right: 20px;
+    text-align: center;
+    border-radius: 50px;
+    border : white;
+}
